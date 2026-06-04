@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import { useState, type FC } from 'react';
 import { bullshitData } from '../data/mockData';
 
-const Translator: React.FC = () => {
+const Translator: FC = () => {
   const [input, setInput] = useState('');
   const [translation, setTranslation] = useState('');
   const [isScanning, setIsScanning] = useState(false);

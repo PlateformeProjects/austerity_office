@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import { useState, type FC } from 'react';
 import { excuseComponents } from '../data/mockData';
 
-const ExcuseGenerator: React.FC = () => {
+const ExcuseGenerator: FC = () => {
   const [excuse, setExcuse] = useState('');
   const [shameLevel, setShameLevel] = useState(0);
 

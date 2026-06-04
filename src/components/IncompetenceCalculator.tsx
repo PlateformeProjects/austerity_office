@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import { useState, type FC } from 'react';
 
-const IncompetenceCalculator: React.FC = () => {
+const IncompetenceCalculator: FC = () => {
   const [hourlyRate, setHourlyRate] = useState(50);
   const [participants, setParticipants] = useState(5);
   const [duration, setDuration] = useState(60);
